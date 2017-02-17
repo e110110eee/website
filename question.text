@@ -1,0 +1,41 @@
+1.position引起遮挡问题 。记得在后面的div加上position:relative 。这样就可以让后面文档提升自己的等级。也还是在文档流里面
+
+2.遮盖层效果，我是使用div里面放image，不能自适应。但是实例是把图作为最外层的bg来渲染，可以保证自适应。
+
+3.text-shadow: h-shadow v-shadow blur color;
+
+4.letter-spacing: 字母间距；
+
+5.背景图片从满整个元素方法：
+1）.background-size:100% 100%;//FF下成立
+2）。filter : progid:DXImageTransform.Microsoft.AlphaImageLoader ( enabled=bEnabled , sizingMethod=sSize , src=sURL )//其他浏览器	
+
+6.background属性.background-size设置之后 background-position无效了，
+
+7.清除浮动的三种方法 看今天的另一条
+
+8.overflow出现有6种情况
+1. 一个不换行的行元素宽度超出了容器盒子宽度。
+2. 一个宽度固定的块元素放在了比它窄的容器盒子内。
+3. 一个元素的高度超出了容器盒子的高度。
+4. 一个子孙元素，由负边距值引起的部分内容在盒子外部。
+5. text-indent属性引起的行内元素在盒子的左右边界外。
+6. 一个绝对定位的子孙元素，部分内容在盒子外。但超出的部分不是总会被剪裁。子孙元素的内容就不会被子孙元素和其包含块之间的祖先元素的overflow的设置所剪裁。
+第六种情况可能会造成overflow：hidden失灵的情况。
+
+
+7.background 全属性：
+7.1background-color:  rgba()可以设置透明度
+7.2background-position:两个值 第一个控制X 第二个控制Y；top left 左上角控制
+7.3background-size:看上面
+7.4background-repeat:
+
+7.5:background-origin: 针对背景图片属性，background-position属性相对于什么位置来定位。//source
+padding-box 	背景图像相对于内边距框来定位。 	测试
+border-box 	背景图像相对于边框盒来定位。 	测试
+content-box 	背景图像相对于内容框来定位。
+
+7.6background-clip:属性规定背景的绘制区域。//direction
+border-box 	背景被裁剪到边框盒。 	测试
+padding-box 	背景被裁剪到内边距框。 	测试
+content-box 	背景被裁剪到内容框。

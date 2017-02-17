@@ -1,0 +1,8 @@
+﻿html:基础还是不牢固啊
+1.font-weight  font-size font-style font-family
+简写：顺序：font-style | font-variant | font-weight | font-size | line-height | font-family
+简写至少要有 font-weight  font-size font-family
+2.box-sizing属性，一直都没搞懂
+3.list-style 属性有哪些
+4.当一个元素套在两个盒子里面时候，最里面的盒子需要设置外上边距margin-top的时候，上一层的盒子没有设置内上边距padding-top时候，最里面的盒子的margin-top就会无效。直接会穿过中间元素成为中间元素的margin-top。如果最外层也没有设置，同理，最里面的margin-top成为最外面的magrin-tap。外层的盒子设置了margin 两个会重叠起来。
+5.max-width：100% 让图片沾满父容器

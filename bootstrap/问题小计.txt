@@ -1,0 +1,5 @@
+display :table table 	此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。
+
+box-sizing规定带边框的框
+
+主要套路就是在section分块，然后在里面布局，自己还需要单独写一些样式，不过主要还是通过boostrap来实现的。

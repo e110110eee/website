@@ -1,0 +1,101 @@
+html, body{
+	height: 100%
+	color: #333;
+	font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857;
+}
+.container{
+	width: 1018px;
+	margin:54px auto;
+	background-color: #eee;
+	padding-bottom: 75px;
+}
+.header{
+	width: 1018px;
+	text-align: center; 
+	color: #333;
+	height: 100%;
+	padding-top: 1px;
+}
+.header .title{
+	font: 500 63px/1.1em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+.header .subtitle{
+/*	font-size: 30px;
+	font-weight: 500;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font:italic 500 30px/1.1em  "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.1;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.banner{
+	margin: 0 auto;
+	width: 910px;
+	background-color: #fff;
+	padding: 10px 10px  0 ;
+
+}
+.banner .he{
+	display: block;
+	max-width: 100% /*图片占满父级元素*/
+}
+.img-intruduce{
+	color: #333;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	text-align: center;
+}
+.timetable{
+	width: 580px;
+	padding: 0 15px;
+	margin :20px auto;
+}
+.time-title h3{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 52px;
+	height: 52px;
+	font-weight: 600;
+	font-size: 24px;
+	color: #000;
+
+}
+.time li{
+	margin-left: 25px;
+	list-style: square;
+	color:#333;
+}
+.time .bold{
+	font-weight: bold;
+}
+.thought{
+	border-left: 5px solid #eee;
+	 font-size: 17.5px;
+	 margin: 0 0 10px;
+	padding: 10px 10px;
+	text-indent: 10px;
+}
+.thought p{
+	margin-bottom: 15px;
+
+}
+.thought span{
+	display: block;
+	color: #777;
+	font-size: 80%;
+	line-height: 1.42857;
+	font-style: italic;
+	text-align: right;
+}
+.more{
+	 font-size: 17.5px;
+	text-indent: 10px;
+
+}
+.more a{
+	color:blue;
+}
